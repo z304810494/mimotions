@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       user:
-        description: '用户名'
+        description: 'user'
         required: true
         default: ''
       pwd:
-        description: '密码'
+        description: 'pwd'
         required: true
         default: ''
       step:
-        description: '步数'
+        description: 'step'
         required: false
         default: '0'
 
